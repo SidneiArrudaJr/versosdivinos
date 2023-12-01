@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+header, footer {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2vw;
+}
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p {
+    padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+footer > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: pacifico, cursive;
+    font-size: 2.3vw;
+}
+section.comum {
+    background-color: whitesmoke;
+    color: black;
+
+}
+section.imagem {
+    background-color: rgb(54, 54, 54);
+    color: whitesmoke;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.677);
+    background-attachment: fixed;
+
+}
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.263);
+    width: fit-content;
+    text-shadow: 1.5px 1.5px 0 black;
+X}
+section > p {
+    padding: 10px;
+}
+section#img1 {
+    background-image: url(imagens/joaninha.jpeg);
+    background-size: cover;
+}
+section#img2 {
+    background-image: url(imagens/livro.jpeg);
+    background-size: cover;
+
+}
